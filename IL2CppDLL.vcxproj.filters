@@ -21,6 +21,24 @@
     <ClInclude Include="user\main.h">
       <Filter>user</Filter>
     </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-metadata-version.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
     <ClInclude Include="framework\helpers.h">
       <Filter>framework</Filter>
     </ClInclude>
@@ -33,31 +51,16 @@
     <ClInclude Include="framework\pch-il2cpp.h">
       <Filter>framework</Filter>
     </ClInclude>
-    <ClInclude Include="appdata\il2cpp-functions.h">
-      <Filter>appdata</Filter>
-    </ClInclude>
-    <ClInclude Include="appdata\il2cpp-types.h">
-      <Filter>appdata</Filter>
-    </ClInclude>
-    <ClInclude Include="appdata\il2cpp-types-ptr.h">
-      <Filter>appdata</Filter>
-    </ClInclude>
-    <ClInclude Include="appdata\il2cpp-api-functions.h">
-      <Filter>appdata</Filter>
-    </ClInclude>
-    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h">
-      <Filter>appdata</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="appdata">
-      <UniqueIdentifier>{d94164f8-b5ce-4ad5-b4c1-a7d4c087b112}</UniqueIdentifier>
+      <UniqueIdentifier>{458e3dc5-dad9-4248-bd85-88e8a9d72d95}</UniqueIdentifier>
     </Filter>
     <Filter Include="framework">
-      <UniqueIdentifier>{78367be9-6c74-47e9-86e3-88755a31867e}</UniqueIdentifier>
+      <UniqueIdentifier>{391d20ec-d9e6-4aec-869e-0122ed3cd15d}</UniqueIdentifier>
     </Filter>
     <Filter Include="user">
-      <UniqueIdentifier>{6d3b5ebe-ab6e-4c3e-8c8a-60b82f2708b7}</UniqueIdentifier>
+      <UniqueIdentifier>{f037ab78-f7ea-4c17-9403-80c5c2d009fa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -41,9 +41,10 @@
     <ClCompile Include="user\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h" />
     <ClInclude Include="appdata\il2cpp-api-functions.h" />
+    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h" />
     <ClInclude Include="appdata\il2cpp-functions.h" />
+    <ClInclude Include="appdata\il2cpp-metadata-version.h" />
     <ClInclude Include="appdata\il2cpp-types-ptr.h" />
     <ClInclude Include="appdata\il2cpp-types.h" />
     <ClInclude Include="framework\helpers.h" />
@@ -58,9 +59,8 @@
   <PropertyGroup Label="Globals">
     <!--<VCProjectVersion>16.0</VCProjectVersion>-->
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{EEF29602-BEA3-4D85-8C03-68D99E9E44FE}</ProjectGuid>
+    <ProjectGuid>{A538FD51-BF7F-403D-AA97-732F4A737862}</ProjectGuid>
     <RootNamespace>Il2CppDLL</RootNamespace>
-    <ProjectName>PhasBypass</ProjectName>
     <!--<WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>-->
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -206,7 +206,7 @@
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
-      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+      <ErrorText>Questo progetto fa riferimento a uno o più pacchetti NuGet che non sono presenti in questo computer. Usare lo strumento di ripristino dei pacchetti NuGet per scaricarli. Per altre informazioni, vedere http://go.microsoft.com/fwlink/?LinkID=322105. Il file mancante è {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('packages\Detours.4.0.1\build\native\Detours.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Detours.4.0.1\build\native\Detours.targets'))" />
   </Target>
